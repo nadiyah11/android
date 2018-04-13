@@ -65,7 +65,7 @@
 						<div class="container">
 
 							<header>
-								<span><img src="img/logo.png" alt="" /></span>
+								<span><img src="img/com.png" width="100%" alt="" /></span>
 							</header>
 
 
@@ -97,10 +97,12 @@
 			<script src="assets/js/util.js"></script>
 			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
 			<script src="assets/js/main.js"></script>
-			
-			<script type="text/javascript">
+
+	</body>
+</html>
+<script type="text/javascript">
 			   	 $(document).ready(function(){
-			        $.get( "http://localhost:1000/contactandro", function( data ) {
+			        $.get( "http://192.168.43.165:8000/contactandro", function( data ) {
 			            $.each( data, function( key, value ) {
 			              var data =    '<div class="card" style="width:20rem;margin:20px 0 24px 0">'+
 			                              '<div class="card-body">'+
@@ -112,6 +114,3 @@
 			        });
 			    });
 			</script>
-			
-	</body>
-</html>
